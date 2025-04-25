@@ -16,6 +16,15 @@ This solution provides a custom `DelegatingHandler` (`SafeHeaderPropagationHandl
 
 ---
 
+
+## 📌 Why?
+
+The built-in `HeaderPropagationHandler` in ASP.NET Core throws an `InvalidOperationException` when there's no active `HttpContext`, causing issues in background services and hosted processes.  
+This library offers a clean, configurable, and safe way to handle such scenarios without duplicating `HttpClient` registrations or implementations.
+and fixes this [issue](https://github.com/dotnet/aspnetcore/issues/12169)
+
+---
+
 ## 🚀 Installation
 
 Clone the repository:
@@ -72,13 +81,6 @@ dotnet test
 - No propagation and no exceptions when `HttpContext` is null
 
 No external dependencies like Moq are used — pure .NET and xUnit based.
-
----
-
-## 📌 Why?
-
-The built-in `HeaderPropagationHandler` in ASP.NET Core throws an `InvalidOperationException` when there's no active `HttpContext`, causing issues in background services and hosted processes.  
-This library offers a clean, configurable, and safe way to handle such scenarios without duplicating `HttpClient` registrations or implementations.
 
 ---
 
