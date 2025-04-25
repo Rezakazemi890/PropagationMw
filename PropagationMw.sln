@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropagationMw", "PropagationMw\PropagationMw.csproj", "{DF61D7C0-4AAD-415B-ACF3-194390A29304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropagationMw.Test", "PropagationMw.Test\PropagationMw.Test.csproj", "{90CDAB3A-EFA3-49FA-8C73-9021AFCB54EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF61D7C0-4AAD-415B-ACF3-194390A29304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF61D7C0-4AAD-415B-ACF3-194390A29304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF61D7C0-4AAD-415B-ACF3-194390A29304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF61D7C0-4AAD-415B-ACF3-194390A29304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CDAB3A-EFA3-49FA-8C73-9021AFCB54EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CDAB3A-EFA3-49FA-8C73-9021AFCB54EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CDAB3A-EFA3-49FA-8C73-9021AFCB54EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CDAB3A-EFA3-49FA-8C73-9021AFCB54EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
